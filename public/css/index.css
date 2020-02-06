@@ -6,14 +6,12 @@
 .header a:visited {color: inherit;}
 .header a:active {color: inherit;}
 
-/* Header */
-
-
-/* Main */
-
-
-/* Footer */
-
+.wrapper {max-width: 900px; margin: 0 auto;}
+.title {padding: 0.75rem 1rem; background-color: #263c50; color: #c6e8ee; font-size: 1.5rem;}
+.prd-wrap {margin-top: 1rem; border: 1px solid #eee; padding: 1rem; display: flex;}
+.prd {flex: 24% 0 0; margin: 0.5%; padding: 0.5rem; border: 1px solid #ccc;}
+.prd > .name {padding: 0.5rem 0; font-size: 1.25rem;}
+.prd > .price {padding: 0.5rem 0; font-size: 1rem; color: #428eb1;}
 
 /* Responsive */
 @media screen and (max-width: 992px) {

@@ -1,1 +1,0 @@
-new WOW({offset: 200}).init();
