@@ -29,3 +29,10 @@ app.get("/prd", (req, res) => {
 		prds
 	});
 });
+
+app.get("/api/prd", (req, res) => {
+	res.json({
+		title: "API 상품리스트",
+		prds
+	});
+});
