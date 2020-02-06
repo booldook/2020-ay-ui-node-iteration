@@ -22,3 +22,10 @@ app.set("views", "./views");
 
 
 app.use("/", express.static("./public"));
+
+app.get("/prd", (req, res) => {
+	res.render("prd.pug", {
+		title: "생성된 상품리스트",
+		prds
+	});
+});

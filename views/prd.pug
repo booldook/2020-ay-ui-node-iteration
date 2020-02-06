@@ -1,7 +1,8 @@
 extends ./layout/prd-layout.pug
 block content
 	ul.prd-wrap
-		li.prd
-			img.img(src="./img/p0.jpg" alt="상품1")
-			.name product_01
-			.price $18.00
+		each v in prds
+			li.prd
+				img.img(src=`/img/${v.src}` alt=`상품${v.id}`)
+				.name= v.title
+				.price= v.price
